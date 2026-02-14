@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour
         introPanel.SetActive(false);
         gamePanel.SetActive(true);
         SetGameIsStarted(true);
+        AudioManager.Instance.PlayMenuSfx(GameSfx.Start);
     }
 
     // Load game

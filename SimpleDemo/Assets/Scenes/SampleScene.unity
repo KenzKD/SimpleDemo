@@ -225,6 +225,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &41949186 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7022767480778507375, guid: 8e80bbe71d4171a49b1f3b54a563c8d3, type: 3}
+  m_PrefabInstance: {fileID: 739955277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +683,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751516805}
   m_CullTransparentMesh: 1
+--- !u!1 &811234596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4036711147961059837, guid: 8e80bbe71d4171a49b1f3b54a563c8d3, type: 3}
+  m_PrefabInstance: {fileID: 739955277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &847883975
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +879,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad35c35c5951b6041a83ff50bffbd89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 82872083dd168de43bc08a1b71a7d399, type: 2}
+  bgmVolume: 10
+  sfxVolume: 25
+  bgmSource: {fileID: 41949186}
+  menuSource: {fileID: 1430019500}
+  sfxParent: {fileID: 811234596}
+  sfxLoopingParent: {fileID: 1741139804}
+  bgm:
+  - clip: {fileID: 8300000, guid: d5c4ee3c610a3d542a7a233dd3caa9c8, type: 3}
+    gameBgm: 0
+  sfx:
+  - clip: {fileID: 8300000, guid: d5d7f11c5bc6e5943b69ea2ab8dfa1ff, type: 3}
+    gameSfx: 0
+  - clip: {fileID: 8300000, guid: f72e90eed2fbe54448d6815094007e42, type: 3}
+    gameSfx: 1
+  - clip: {fileID: 8300000, guid: fc05b25a1d8578a4caa9c0a68c993493, type: 3}
+    gameSfx: 2
+  - clip: {fileID: 8300000, guid: 9d3ade6381a3c9c4dbcada2eb7fe20b0, type: 3}
+    gameSfx: 3
+  - clip: {fileID: 8300000, guid: 7a3eb1add884aa14f86f507e48ce1eda, type: 3}
+    gameSfx: 4
 --- !u!114 &1180499849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,6 +1163,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418309225}
   m_CullTransparentMesh: 1
+--- !u!82 &1430019500 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8121689232171796366, guid: 8e80bbe71d4171a49b1f3b54a563c8d3, type: 3}
+  m_PrefabInstance: {fileID: 739955277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1741139804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168480353723911145, guid: 8e80bbe71d4171a49b1f3b54a563c8d3, type: 3}
+  m_PrefabInstance: {fileID: 739955277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1826771122
 GameObject:
   m_ObjectHideFlags: 0
